@@ -58,4 +58,14 @@
   <ItemGroup>
     <Folder Include="Properties" />
   </ItemGroup>
+  <ItemGroup>
+    <Build Include="MyTable.sql" />
+    <Build Include="MyView.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="TestDatabase.refactorlog" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="TestDatabase.publish.xml" />
+  </ItemGroup>
 </Project>
